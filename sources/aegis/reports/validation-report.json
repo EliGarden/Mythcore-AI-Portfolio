@@ -1,0 +1,188 @@
+{
+  "acceptance_gates": {
+    "gate_0_baseline_and_issue_reproduction": true,
+    "gate_10_release_and_full_export": false,
+    "gate_1_canonical_preservation": true,
+    "gate_2_content_addressed_semantic_authority": true,
+    "gate_3_mode_and_metadata_safety": true,
+    "gate_4_repository_purity_and_reproducibility": false,
+    "gate_5_installation_and_distribution": true,
+    "gate_6_runtime_status_and_verification_semantics": true,
+    "gate_7_browser_accessibility_and_frontend_safety": false,
+    "gate_8_container_security_and_supply_chain": false,
+    "gate_9_public_pilot_operations": true
+  },
+  "blocked_checks": [
+    {
+      "browser_binary_available": false,
+      "check": "real browser automation and axe-core",
+      "status": "blocked"
+    },
+    {
+      "check": "real container build, runtime, scan, and filesystem immutability",
+      "container_runtime_available": false,
+      "status": "blocked"
+    }
+  ],
+  "checks": {
+    "accessibility_static": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.accessibility_check"
+      ],
+      "exit_code": 0
+    },
+    "api_smoke": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.api_smoke"
+      ],
+      "exit_code": 0
+    },
+    "branch_corpus": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.verify_branch_corpus"
+      ],
+      "exit_code": 0
+    },
+    "canonical_preservation": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.verify_canonical_preservation"
+      ],
+      "exit_code": 0
+    },
+    "format": {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "aegis_lab",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0
+    },
+    "javascript_grow": {
+      "command": [
+        "node",
+        "--check",
+        "static/grow.js"
+      ],
+      "exit_code": 0
+    },
+    "javascript_map": {
+      "command": [
+        "node",
+        "--check",
+        "static/map.js"
+      ],
+      "exit_code": 0
+    },
+    "lint": {
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "check",
+        "aegis_lab",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0
+    },
+    "repository_purity": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.check_repository_mutation"
+      ],
+      "exit_code": 0
+    },
+    "security_source_scan": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.security_scan"
+      ],
+      "exit_code": 0
+    },
+    "semantic_authorities": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.verify_semantic_authorities"
+      ],
+      "exit_code": 0
+    },
+    "semantic_conformance": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.verify_semantic_conformance"
+      ],
+      "exit_code": 0
+    },
+    "terminology": {
+      "command": [
+        "python",
+        "-m",
+        "scripts.check_terminology"
+      ],
+      "exit_code": 0
+    },
+    "tests": {
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q"
+      ],
+      "exit_code": 0
+    },
+    "typecheck": {
+      "command": [
+        "python",
+        "-m",
+        "mypy",
+        "aegis_lab",
+        "scripts"
+      ],
+      "exit_code": 0
+    }
+  },
+  "failed_gates": [
+    "gate_4_repository_purity_and_reproducibility",
+    "gate_7_browser_accessibility_and_frontend_safety",
+    "gate_8_container_security_and_supply_chain",
+    "gate_10_release_and_full_export"
+  ],
+  "output_directory": "/workspace/scratch/fbab56bf3a0f/aegis_v0.4.2/reports",
+  "passed_gates": [
+    "gate_0_baseline_and_issue_reproduction",
+    "gate_1_canonical_preservation",
+    "gate_2_content_addressed_semantic_authority",
+    "gate_3_mode_and_metadata_safety",
+    "gate_5_installation_and_distribution",
+    "gate_6_runtime_status_and_verification_semantics",
+    "gate_9_public_pilot_operations"
+  ],
+  "production_ready": false,
+  "publicly_deployable_as_bounded_public_pilot": false,
+  "repository_pure_output_policy": true,
+  "schema": "aegis.validation_report.v0.4.2",
+  "status": "blocked",
+  "technical_checks_status": "passed",
+  "test_result": "433 passed",
+  "test_target": 425,
+  "verification_performed_at": "2026-07-25T19:32:04.913241Z"
+}

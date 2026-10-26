@@ -1,0 +1,17 @@
+{
+  "scope": "portfolio editorial and artifact verification, not source runtime validation",
+  "source_hash_matches": "passed",
+  "internal_links": "passed",
+  "selected_sources_hashes": "passed",
+  "pdf_page_count": 6,
+  "pdf_visual_review": "all six pages rendered and reviewed; tables and sequences legible, no clipped content observed",
+  "source_sensitive_content_screen": "allowlisted design/code/synthetic-example/report files only; no contact addresses, token patterns or private-key blocks found",
+  "new_mechanics_or_capabilities": false,
+  "runtime_tests_rerun": false,
+  "benchmarks_or_user_studies_performed": false,
+  "historical_results_labeled": true,
+  "illustrative_walkthroughs_labeled": true,
+  "version_boundaries_reviewed": true,
+  "external_validation_claimed": false,
+  "owner_approval_for_external_sharing": false
+}

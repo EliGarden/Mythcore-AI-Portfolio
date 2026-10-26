@@ -1,0 +1,356 @@
+{
+  "schema_version": "1.0.0",
+  "bundle_id": "bundle:ai:1",
+  "export_id": "export:ai:1",
+  "export_digest": "a34bc438f99278947786fbf38a6b341e2610129d6ef420bc4b9c95085c00e7f8",
+  "profile_id": "synthetic:ai-run",
+  "profile_revision": "7",
+  "graph": {
+    "graph_id": "graph:1",
+    "revision": 1,
+    "nodes": [
+      {
+        "node_id": "o1",
+        "kind": "observation",
+        "label": "Unexpected sword metaphor in synthetic teaching trace.",
+        "epistemic_class": "reported",
+        "source_ids": [
+          "source:1"
+        ],
+        "basis_node_ids": [],
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        },
+        "empirical_claim": false
+      },
+      {
+        "node_id": "u1",
+        "kind": "unknown",
+        "label": "Which explanation generalizes beyond this situation?",
+        "epistemic_class": "unknown",
+        "source_ids": [],
+        "basis_node_ids": [
+          "o1"
+        ],
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        },
+        "empirical_claim": false
+      },
+      {
+        "node_id": "h1",
+        "kind": "hypothesis",
+        "label": "Prompt carryover",
+        "epistemic_class": "candidate",
+        "source_ids": [],
+        "basis_node_ids": [
+          "o1"
+        ],
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        },
+        "empirical_claim": false
+      },
+      {
+        "node_id": "h2",
+        "kind": "hypothesis",
+        "label": "Ordinary metaphor generation",
+        "epistemic_class": "candidate",
+        "source_ids": [],
+        "basis_node_ids": [
+          "o1"
+        ],
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        },
+        "empirical_claim": false
+      },
+      {
+        "node_id": "h3",
+        "kind": "hypothesis",
+        "label": "Genre association",
+        "epistemic_class": "candidate",
+        "source_ids": [],
+        "basis_node_ids": [
+          "o1"
+        ],
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        },
+        "empirical_claim": false
+      },
+      {
+        "node_id": "h4",
+        "kind": "hypothesis",
+        "label": "Sampling variation",
+        "epistemic_class": "candidate",
+        "source_ids": [],
+        "basis_node_ids": [
+          "o1"
+        ],
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        },
+        "empirical_claim": false
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "e-support-1",
+        "source_node_id": "o1",
+        "target_node_id": "h1",
+        "relation": "supports",
+        "rationale": "Compatible with this explanation but not discriminating evidence.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-interpret-1",
+        "source_node_id": "o1",
+        "target_node_id": "h1",
+        "relation": "interpreted_as",
+        "rationale": "One possible reading of the same observation.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-support-2",
+        "source_node_id": "o1",
+        "target_node_id": "h2",
+        "relation": "supports",
+        "rationale": "Compatible with this explanation but not discriminating evidence.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-interpret-2",
+        "source_node_id": "o1",
+        "target_node_id": "h2",
+        "relation": "interpreted_as",
+        "rationale": "One possible reading of the same observation.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-support-3",
+        "source_node_id": "o1",
+        "target_node_id": "h3",
+        "relation": "supports",
+        "rationale": "Compatible with this explanation but not discriminating evidence.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-interpret-3",
+        "source_node_id": "o1",
+        "target_node_id": "h3",
+        "relation": "interpreted_as",
+        "rationale": "One possible reading of the same observation.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-support-4",
+        "source_node_id": "o1",
+        "target_node_id": "h4",
+        "relation": "supports",
+        "rationale": "Compatible with this explanation but not discriminating evidence.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      },
+      {
+        "edge_id": "e-interpret-4",
+        "source_node_id": "o1",
+        "target_node_id": "h4",
+        "relation": "interpreted_as",
+        "rationale": "One possible reading of the same observation.",
+        "uncertainty": {
+          "level": "high",
+          "basis": "Synthetic instructional example; competing explanations have not been tested.",
+          "unknowns": [
+            "Behavior outside this scenario is unknown."
+          ],
+          "calibrated_probability": false
+        }
+      }
+    ]
+  },
+  "alternatives": [
+    {
+      "interpretation_set_id": "alternatives:1",
+      "observation_node_ids": [
+        "o1"
+      ],
+      "hypotheses": [
+        {
+          "hypothesis_node_id": "h1",
+          "support_node_ids": [
+            "o1"
+          ],
+          "counterevidence_node_ids": [],
+          "unknown_node_ids": [
+            "u1"
+          ],
+          "support_state": "present",
+          "counterevidence_state": "not_assessed",
+          "discrimination_question": "Would the participant choose several simple routes over one complex hybrid?",
+          "uncertainty": {
+            "level": "high",
+            "basis": "Synthetic instructional example; competing explanations have not been tested.",
+            "unknowns": [
+              "Behavior outside this scenario is unknown."
+            ],
+            "calibrated_probability": false
+          }
+        },
+        {
+          "hypothesis_node_id": "h2",
+          "support_node_ids": [
+            "o1"
+          ],
+          "counterevidence_node_ids": [],
+          "unknown_node_ids": [
+            "u1"
+          ],
+          "support_state": "present",
+          "counterevidence_state": "not_assessed",
+          "discrimination_question": "Would removing forced specialization remove the preference?",
+          "uncertainty": {
+            "level": "high",
+            "basis": "Synthetic instructional example; competing explanations have not been tested.",
+            "unknowns": [
+              "Behavior outside this scenario is unknown."
+            ],
+            "calibrated_probability": false
+          }
+        },
+        {
+          "hypothesis_node_id": "h3",
+          "support_node_ids": [
+            "o1"
+          ],
+          "counterevidence_node_ids": [],
+          "unknown_node_ids": [
+            "u1"
+          ],
+          "support_state": "present",
+          "counterevidence_state": "not_assessed",
+          "discrimination_question": "Does the preference persist with visual style held constant?",
+          "uncertainty": {
+            "level": "high",
+            "basis": "Synthetic instructional example; competing explanations have not been tested.",
+            "unknowns": [
+              "Behavior outside this scenario is unknown."
+            ],
+            "calibrated_probability": false
+          }
+        },
+        {
+          "hypothesis_node_id": "h4",
+          "support_node_ids": [
+            "o1"
+          ],
+          "counterevidence_node_ids": [],
+          "unknown_node_ids": [
+            "u1"
+          ],
+          "support_state": "present",
+          "counterevidence_state": "not_assessed",
+          "discrimination_question": "Does composition appear in unrelated tasks?",
+          "uncertainty": {
+            "level": "high",
+            "basis": "Synthetic instructional example; competing explanations have not been tested.",
+            "unknowns": [
+              "Behavior outside this scenario is unknown."
+            ],
+            "calibrated_probability": false
+          }
+        }
+      ],
+      "status": "underdetermined",
+      "single_hypothesis_reason": null,
+      "preferred_hypothesis_id": null,
+      "preference_rationale": null,
+      "revisit_condition": "Obtain independently sourced, consent-scoped contrasting observations."
+    }
+  ],
+  "morphology": null,
+  "candidate_revisions": [],
+  "authority": "none",
+  "authorization_status": "not_authorized",
+  "profile_mutation": false,
+  "clinical_diagnosis": false,
+  "mechanistic_interpretability": false
+}

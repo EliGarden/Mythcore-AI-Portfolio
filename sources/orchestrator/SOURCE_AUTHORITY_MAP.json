@@ -1,0 +1,29 @@
+{
+  "canonical_urn": "urn:luxian:system:federation-os",
+  "institutional_legitimacy": false,
+  "pilot_readiness": false,
+  "precedence": [
+    {
+      "physical_file_supplied": false,
+      "rank": 1,
+      "source": "conversation-supplied ORCHESTRATOR_v0.4.1_GOVERNED_PROMOTION_CORRECTIVE_CLOSURE_CODEX_IMPLEMENTATION_MANDATE.txt content"
+    },
+    {
+      "rank": 2,
+      "source": "current user-ratified canonical decisions"
+    },
+    {
+      "rank": 3,
+      "source": "v0.4.0 audit findings embedded verbatim in the controlling mandate",
+      "standalone_audit_file_supplied": false
+    },
+    {
+      "rank": 4,
+      "sha256": "c75b11be9e7bd64c9a431698f5936f572a2005b81784347dbd2a2f4e8b3843f6",
+      "source": "Orchestrator v0.4.0 complete export"
+    }
+  ],
+  "production_readiness": false,
+  "release": "Orchestrator v0.4.1 \u2014 Governed Promotion Corrective Closure",
+  "stable_system_id": "sys.federation_os"
+}

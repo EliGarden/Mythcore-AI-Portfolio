@@ -1,0 +1,85 @@
+{
+  "inherited": {
+    "ledger_id": "mirror-ai-v1.2-contradiction-ledger",
+    "append_only": true,
+    "entries": [
+      {
+        "issue_id": "CONTRADICTION-VERSION-001",
+        "status": "resolved_by_explicit_migration",
+        "claim_a": "Executable repository declared version 1.0.0.",
+        "claim_b": "Supplied canonical manifest declared version 1.1.0.",
+        "resolution": "Preserve both lineage records and migrate non-breakingly to 1.2.0."
+      },
+      {
+        "issue_id": "CONTRADICTION-FILENAME-001",
+        "status": "recorded_non_blocking",
+        "claim_a": "Directive referenced suffixed filenames.",
+        "claim_b": "Equivalent supplied artifacts used different filenames.",
+        "resolution": "Use content and record the filename mismatch."
+      },
+      {
+        "issue_id": "CONTRADICTION-DONOR-001",
+        "status": "resolved_by_authority_order",
+        "claim_a": "Canonical repository contains 15 faculties.",
+        "claim_b": "Donor reconstruction contains six faculties.",
+        "resolution": "Use donor contracts only; retain and regression-test all 15 faculties."
+      },
+      {
+        "issue_id": "ISSUE-005",
+        "status": "open_P0_external_dependency",
+        "summary": "Mirror Gaia output compatibility is not demonstrated by a real or canonical supplied Gaia fixture.",
+        "mirror_side_status": "typed validation and interpretation contract implemented",
+        "acceptance_criteria": [
+          "Supply a canonical Mirror Gaia DevelopmentalMeasurementPacket fixture.",
+          "Pass schema, metric identity, unit, confidence, temporal validity, provenance and method contract tests.",
+          "Demonstrate missing and uncomputable states without fabricated values."
+        ]
+      },
+      {
+        "issue_id": "ISSUE-011",
+        "status": "mirror_side_closed_external_trust_remains",
+        "summary": "CCP digest integrity is distinct from producer trust.",
+        "mirror_side_status": "verifier port, envelope binding, explicit fixture-untrusted status and adversarial rejection implemented",
+        "external_dependency": "Federation OS identity issuance, authenticated transport and production signature verification"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "REL-CON-001",
+      "status": "resolved_by_scope",
+      "conflict": "Proposal reflective summary is narrower than the complete constitutional cognition baseline.",
+      "resolution": "Retain whole baseline; add the question about possible meaning."
+    },
+    {
+      "id": "REL-CON-002",
+      "status": "resolved_by_definition",
+      "conflict": "No user diagnosis versus inherited developmental_diagnosis faculty.",
+      "resolution": "Structural analysis retained; clinical inference remains out of scope."
+    },
+    {
+      "id": "REL-CON-003",
+      "status": "resolved_by_ownership",
+      "conflict": "New interpretation graph versus Flower Garden graph ownership.",
+      "resolution": "Bounded transient reasoning graph only; external durable graph retrieval remains external."
+    },
+    {
+      "id": "REL-CON-004",
+      "status": "resolved_by_source_scope",
+      "conflict": "Mirror corrective ZIP root metadata identifies Orchestrator.",
+      "resolution": "Only isolated Mirror API fixture patch accepted; other records remain historical donor metadata."
+    },
+    {
+      "id": "REL-CON-005",
+      "status": "open_external_adapter_negotiation",
+      "conflict": "Legacy Hydra execution handoff and newer profile reconstruction role use related system naming.",
+      "resolution": "Preserve legacy handoff contract; introduce distinct profile export without transferring execution authority."
+    },
+    {
+      "id": "REL-CON-006",
+      "status": "open_empirical_research",
+      "conflict": "Symbolic richness may help legibility but can encourage unwarranted reification.",
+      "resolution": "Experimental opt-in representation with plain-language alternative and uncertainty."
+    }
+  ]
+}

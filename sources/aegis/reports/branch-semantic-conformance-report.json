@@ -1,0 +1,126 @@
+{
+  "evidence_timestamp": "2026-07-25T12:00:00Z",
+  "result": {
+    "authority_digest_comparison": [
+      {
+        "authority_type": "branch_engine_bundle",
+        "current_content_digest": "51b21cf11bbc50f58433d6d6b868ef9786be1933264cfcb591027324b5a34f11",
+        "declared_digest": "51b21cf11bbc50f58433d6d6b868ef9786be1933264cfcb591027324b5a34f11",
+        "registry_digest": "51b21cf11bbc50f58433d6d6b868ef9786be1933264cfcb591027324b5a34f11",
+        "stable_id": "aegis.branch_engine",
+        "status": "passed",
+        "version": "aegis.branch_engine.v0.4.2"
+      },
+      {
+        "authority_type": "scenario_variable_registry",
+        "current_content_digest": "59c5b7edda3fad2827f60dd1f8b0c61e20b7c2853019087801a0044793eedead",
+        "declared_digest": "59c5b7edda3fad2827f60dd1f8b0c61e20b7c2853019087801a0044793eedead",
+        "registry_digest": "59c5b7edda3fad2827f60dd1f8b0c61e20b7c2853019087801a0044793eedead",
+        "stable_id": "aegis.scenario_variable_registry",
+        "status": "passed",
+        "version": "aegis.scenario_variable_registry.v0.1"
+      },
+      {
+        "authority_type": "branch_template_registry",
+        "current_content_digest": "e4ce933b368d763ddc5543b009a82b95943233e306972a89369c3cc80cecc558",
+        "declared_digest": "e4ce933b368d763ddc5543b009a82b95943233e306972a89369c3cc80cecc558",
+        "registry_digest": "e4ce933b368d763ddc5543b009a82b95943233e306972a89369c3cc80cecc558",
+        "stable_id": "aegis.branch_template_registry",
+        "status": "passed",
+        "version": "aegis.branch_template_registry.v0.4.2"
+      },
+      {
+        "authority_type": "constitutional_invariant_registry",
+        "current_content_digest": "2f50a761dd3077753dc15bae9215cd1dd634bc272716f08896f8f48fd2191005",
+        "declared_digest": "2f50a761dd3077753dc15bae9215cd1dd634bc272716f08896f8f48fd2191005",
+        "registry_digest": "2f50a761dd3077753dc15bae9215cd1dd634bc272716f08896f8f48fd2191005",
+        "stable_id": "aegis.constitutional_invariant_registry",
+        "status": "passed",
+        "version": "aegis.constitutional_invariant_registry.v0.4.2"
+      },
+      {
+        "authority_type": "branch_disclosure_policy",
+        "current_content_digest": "87b85ee6d53a8ff94e426c85b440fa4d523b27073ba323c76540e5e3f063a842",
+        "declared_digest": "87b85ee6d53a8ff94e426c85b440fa4d523b27073ba323c76540e5e3f063a842",
+        "registry_digest": "87b85ee6d53a8ff94e426c85b440fa4d523b27073ba323c76540e5e3f063a842",
+        "stable_id": "aegis.branch_disclosure.v0.1",
+        "status": "passed",
+        "version": "aegis.branch_disclosure_policy.v0.1"
+      },
+      {
+        "authority_type": "canonical_serialization_policy",
+        "current_content_digest": "d054f9016e725422e6e414ca786a0817d96095458e61cddb04e1dd7866b55c99",
+        "declared_digest": "d054f9016e725422e6e414ca786a0817d96095458e61cddb04e1dd7866b55c99",
+        "registry_digest": "d054f9016e725422e6e414ca786a0817d96095458e61cddb04e1dd7866b55c99",
+        "stable_id": "aegis.canonical_serialization",
+        "status": "passed",
+        "version": "aegis.canonical_serialization.v0.1"
+      },
+      {
+        "authority_type": "canonical_parent_bundle",
+        "current_content_digest": "d93967c0c4088b7823a308ce734a102846d7adc2c2fc7e26040f8ff5403b26f4",
+        "declared_digest": "d93967c0c4088b7823a308ce734a102846d7adc2c2fc7e26040f8ff5403b26f4",
+        "registry_digest": "d93967c0c4088b7823a308ce734a102846d7adc2c2fc7e26040f8ff5403b26f4",
+        "stable_id": "cee-001-governed-research-memorandum",
+        "status": "passed",
+        "version": "0.1.0"
+      },
+      {
+        "authority_type": "selected_branch_template",
+        "current_content_digest": "213bf044438a12cb813243fb5e0546a2061d3aed510828015afc58af7bde5024",
+        "declared_digest": "213bf044438a12cb813243fb5e0546a2061d3aed510828015afc58af7bde5024",
+        "registry_digest": "213bf044438a12cb813243fb5e0546a2061d3aed510828015afc58af7bde5024",
+        "stable_id": "lab-004-reviewer-denies",
+        "status": "passed",
+        "version": "0.4.2"
+      }
+    ],
+    "branch_semantic_id": "branch-sem-ce7b1b68c4c73ce5c2232c7f",
+    "canonical_parent": "cee-001-governed-research-memorandum",
+    "deterministic_evidence_timestamp": null,
+    "disclosure_policy_version": "aegis.branch_disclosure_policy.v0.1",
+    "engine_version": "aegis.branch_engine.v0.4.2",
+    "errors": [],
+    "expected_root_digest": "c8060a525384e736e28aae99eb8dbdabf59a1b7029651cb4e223d3f49d1ca026",
+    "expected_vs_observed_comparison": [],
+    "expected_vs_observed_disclosure": [],
+    "expected_vs_observed_findings": [],
+    "expected_vs_observed_propagated_state": [],
+    "expected_vs_observed_records": [],
+    "limitations": [
+      "Semantic conformance proves equality to the registered deterministic engine and exact authority content.",
+      "It does not establish empirical truth, institutional legitimacy, authorization, or execution."
+    ],
+    "mismatch_paths": [],
+    "normalized_mutation_comparison": {
+      "expected": [
+        {
+          "requested_value": "deny",
+          "variable_id": "governance.review_outcome"
+        }
+      ],
+      "observed": [
+        {
+          "requested_value": "deny",
+          "variable_id": "governance.review_outcome"
+        }
+      ]
+    },
+    "observed_root_digest": "c8060a525384e736e28aae99eb8dbdabf59a1b7029651cb4e223d3f49d1ca026",
+    "reconstructed_artifact_id": "branch-art-c8060a525384e736e28aae99",
+    "semantic_verifier_bundle_digest": "420d51d47117bc41796f57e6b83e20eb36f08c480cb37971da8f815583e60828",
+    "semantic_verifier_id": "aegis.semantic_verifier",
+    "semantic_verifier_version": "aegis.semantic_verifier.v0.4.2",
+    "status": "passed",
+    "submitted_artifact_id": "branch-art-c8060a525384e736e28aae99",
+    "template_registry_version": "aegis.branch_template_registry.v0.4.2",
+    "variable_registry_version": "aegis.scenario_variable_registry.v0.1",
+    "verification_performed_at": "2026-07-25T19:26:17.533355Z",
+    "verification_type": "aegis_branch_semantic_conformance",
+    "verified_at": "2026-07-25T19:26:17.533355Z",
+    "verifier_version": "aegis.semantic_verifier.v0.4.2",
+    "warnings": []
+  },
+  "schema": "aegis.branch_semantic_conformance.v0.4.2",
+  "status": "passed"
+}

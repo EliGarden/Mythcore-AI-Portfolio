@@ -1,0 +1,30 @@
+{
+  "canonical_urn": "urn:luxian:system:federation-os",
+  "implemented": [
+    "cryptographic governance decision verification",
+    "native canonical-promotion authorization extension",
+    "recoverable permit execution state machine",
+    "six-process governed workflow",
+    "HTTP and CLI surface completion",
+    "Mirror AI expired-fixture overlay",
+    "schema v4",
+    "30-workflow and 150-event characterization"
+  ],
+  "institutional_legitimacy": false,
+  "pilot_readiness": false,
+  "production_readiness": false,
+  "release": "Orchestrator v0.4.1 \u2014 Governed Promotion Corrective Closure",
+  "stable_system_id": "sys.federation_os",
+  "status": "incomplete",
+  "unresolved": [
+    "Line coverage is below 94%.",
+    "Branch coverage is below 90%.",
+    "Authority/recovery-critical modules do not all reach 100% coverage.",
+    "The exhaustive scenario matrix was not repeated for every HTTP route and CLI command.",
+    "The full fault-injection matrix was not executed at every process boundary.",
+    "Only Python 3.12.13 was available and tested in this environment.",
+    "pip-audit and ruff were unavailable in the supplied runtime.",
+    "The named standalone ORCHESTRATOR_v0.4.0_INDEPENDENT_RELEASE_AUDIT.json was not supplied; findings were reproduced from the controlling v0.4.1 mandate."
+  ],
+  "version": "0.4.1"
+}

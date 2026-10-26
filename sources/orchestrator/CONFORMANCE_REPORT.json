@@ -1,0 +1,230 @@
+{
+  "acceptance_gates": [
+    {
+      "gate": 1,
+      "passed": false,
+      "reason": "V040-AUDIT-004 and V040-AUDIT-005 remain partial"
+    },
+    {
+      "gate": 2,
+      "passed": true
+    },
+    {
+      "gate": 3,
+      "passed": true
+    },
+    {
+      "gate": 4,
+      "passed": true
+    },
+    {
+      "gate": 5,
+      "passed": true
+    },
+    {
+      "gate": 6,
+      "passed": true
+    },
+    {
+      "gate": 7,
+      "passed": true
+    },
+    {
+      "gate": 8,
+      "passed": true
+    },
+    {
+      "gate": 9,
+      "passed": true
+    },
+    {
+      "gate": 10,
+      "passed": true
+    },
+    {
+      "gate": 11,
+      "passed": true
+    },
+    {
+      "gate": 12,
+      "passed": true
+    },
+    {
+      "gate": 13,
+      "passed": false,
+      "reason": "per-route exhaustive behavioral matrix incomplete"
+    },
+    {
+      "gate": 14,
+      "passed": false,
+      "reason": "per-command exhaustive behavioral matrix incomplete"
+    },
+    {
+      "gate": 15,
+      "passed": true,
+      "profile": "isolated fixture patch"
+    },
+    {
+      "gate": 16,
+      "passed": true,
+      "profile": "original-plus-isolated-patch evidence"
+    },
+    {
+      "actual": 77.78697571743929,
+      "gate": 17,
+      "passed": false,
+      "required": 94
+    },
+    {
+      "actual": 61.917808219178085,
+      "gate": 18,
+      "passed": false,
+      "required": 90
+    },
+    {
+      "gate": 19,
+      "passed": false,
+      "reason": "critical-module aggregate is not 100%"
+    },
+    {
+      "gate": 20,
+      "passed": true
+    },
+    {
+      "gate": 21,
+      "passed": true
+    },
+    {
+      "gate": 22,
+      "passed": true
+    },
+    {
+      "gate": 23,
+      "passed": true
+    },
+    {
+      "gate": 24,
+      "passed": null,
+      "status": "post_freeze_external_verification_required"
+    },
+    {
+      "gate": 25,
+      "passed": true
+    },
+    {
+      "gate": 26,
+      "passed": null,
+      "status": "validated_during_final_build"
+    },
+    {
+      "gate": 27,
+      "passed": null,
+      "status": "validated_during_final_build"
+    },
+    {
+      "gate": 28,
+      "passed": true
+    },
+    {
+      "gate": 29,
+      "passed": true
+    },
+    {
+      "gate": 30,
+      "passed": true
+    }
+  ],
+  "canonical_urn": "urn:luxian:system:federation-os",
+  "coverage": {
+    "branch_percent": 61.917808219178085,
+    "critical_modules_100_percent": false,
+    "line_percent": 77.78697571743929,
+    "required_branch_percent": 90,
+    "required_line_percent": 94
+  },
+  "evidence_references": [
+    "evidence/v041/test_runs/orchestrator_v041_py312_junit.xml",
+    "evidence/v041/native_suites/archengine_v330_py312.xml",
+    "evidence/v041/native_suites/flower_garden_v045_py312.xml",
+    "evidence/v041/native_suites/mirror_ai_v120_original_py312.xml",
+    "evidence/v041/native_suites/mirror_ai_v120_patched_py312.xml",
+    "evidence/v041/native_suites/governance_os_v120_py312.xml",
+    "evidence/v041/native_suites/authorization_kernel_v010_py312.xml",
+    "evidence/v041/coverage/coverage.json",
+    "evidence/v041/PERFORMANCE_CHARACTERIZATION.json"
+  ],
+  "institutional_legitimacy": false,
+  "pilot_readiness": false,
+  "production_readiness": false,
+  "release": "Orchestrator v0.4.1 \u2014 Governed Promotion Corrective Closure",
+  "stable_system_id": "sys.federation_os",
+  "status": "incomplete",
+  "test_suites": {
+    "archengine": {
+      "errors": 0,
+      "evidence": "evidence/v041/native_suites/archengine_v330_py312.xml",
+      "failures": 0,
+      "passed": 175,
+      "skipped": 0,
+      "tests": 175
+    },
+    "authorization_kernel": {
+      "errors": 0,
+      "evidence": "evidence/v041/native_suites/authorization_kernel_v010_py312.xml",
+      "failures": 0,
+      "passed": 33,
+      "skipped": 0,
+      "tests": 33
+    },
+    "flower_garden": {
+      "errors": 0,
+      "evidence": "evidence/v041/native_suites/flower_garden_v045_py312.xml",
+      "failures": 0,
+      "passed": 58,
+      "skipped": 0,
+      "tests": 58
+    },
+    "governance_os": {
+      "errors": 0,
+      "evidence": "evidence/v041/native_suites/governance_os_v120_py312.xml",
+      "failures": 0,
+      "passed": 53,
+      "skipped": 0,
+      "tests": 53
+    },
+    "mirror_ai_original": {
+      "errors": 0,
+      "evidence": "evidence/v041/native_suites/mirror_ai_v120_original_py312.xml",
+      "failures": 1,
+      "passed": 67,
+      "skipped": 0,
+      "tests": 68
+    },
+    "mirror_ai_patched": {
+      "errors": 0,
+      "evidence": "evidence/v041/native_suites/mirror_ai_v120_patched_py312.xml",
+      "failures": 0,
+      "passed": 68,
+      "skipped": 0,
+      "tests": 68
+    },
+    "orchestrator": {
+      "errors": 0,
+      "evidence": "evidence/v041/test_runs/orchestrator_v041_py312_junit.xml",
+      "failures": 0,
+      "passed": 173,
+      "skipped": 0,
+      "tests": 173
+    }
+  },
+  "unresolved": [
+    "Line coverage is below 94%.",
+    "Branch coverage is below 90%.",
+    "Authority/recovery-critical modules do not all reach 100% coverage.",
+    "The exhaustive scenario matrix was not repeated for every HTTP route and CLI command.",
+    "The full fault-injection matrix was not executed at every process boundary.",
+    "Only Python 3.12.13 was available and tested in this environment.",
+    "pip-audit and ruff were unavailable in the supplied runtime.",
+    "The named standalone ORCHESTRATOR_v0.4.0_INDEPENDENT_RELEASE_AUDIT.json was not supplied; findings were reproduced from the controlling v0.4.1 mandate."
+  ]
+}

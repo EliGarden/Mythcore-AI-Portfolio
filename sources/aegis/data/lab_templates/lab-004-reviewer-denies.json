@@ -1,0 +1,48 @@
+{
+  "approved_mutations": [
+    {
+      "requested_value": "deny",
+      "variable_id": "governance.review_outcome"
+    }
+  ],
+  "canonical_record_refs": [
+    "pub-rec-06-governance-decision",
+    "pub-rec-07-authorization-record"
+  ],
+  "evidence_refs": [
+    "cee-001-governed-research-memorandum"
+  ],
+  "expected_artifact_id": "branch-art-c8060a525384e736e28aae99",
+  "expected_causal_effects": [
+    "Authorization is absent.",
+    "Permit and execution are blocked.",
+    "Completion is withheld."
+  ],
+  "expected_invariant_findings": [
+    "INV-002",
+    "INV-031"
+  ],
+  "expected_root_digest": "c8060a525384e736e28aae99eb8dbdabf59a1b7029651cb4e223d3f49d1ca026",
+  "expected_semantic_digest": "ce7b1b68c4c73ce5c2232c7f7f55ed27b56479b55f3ff1f70e3967c684a21f02",
+  "expected_semantic_id": "branch-sem-ce7b1b68c4c73ce5c2232c7f",
+  "limitations": [
+    "This is not an institutional decision."
+  ],
+  "map_inspection_entry_point": "Authorization Comparison",
+  "pedagogical_purpose": "Make decision, authorization, and execution separation causally visible.",
+  "question": "Why does a denial stop authorization and execution?",
+  "recommended_grow_topics": [
+    "topic-18-denial-stops-authorization"
+  ],
+  "recommended_lenses": [
+    "squire",
+    "knight",
+    "magician"
+  ],
+  "template_id": "lab-004-reviewer-denies",
+  "title": "Reviewer Denies",
+  "uncertainty": [
+    "The hypothetical denial rationale is not supplied."
+  ],
+  "version": "0.4.2"
+}

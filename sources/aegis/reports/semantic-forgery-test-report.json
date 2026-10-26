@@ -1,0 +1,71 @@
+{
+  "evidence_timestamp": "2026-07-25T12:00:00Z",
+  "schema": "aegis.semantic_forgery.v0.4.2",
+  "status": "passed",
+  "variant_count": 9,
+  "variants": [
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "governance_outcome"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "authorization_state"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "permit_state"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "execution_state"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "receipt_state"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "replay_state"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 6,
+      "semantic_status": "failed",
+      "variant": "finding"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "comparison"
+    },
+    {
+      "composite_status": "failed",
+      "integrity_status": "passed",
+      "mismatch_count": 7,
+      "semantic_status": "failed",
+      "variant": "disclosure"
+    }
+  ]
+}
