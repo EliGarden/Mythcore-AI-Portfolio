@@ -23,7 +23,7 @@ Selected source snapshots are included in `sources/`, so the case studies do not
 
 This portfolio demonstrates documented design reasoning and evidence discipline. It does not claim novel AI algorithms, independently validated research, a shipped product or production engineering readiness. Diagrams are explanatory illustrations, not screenshots of deployed software.
 
-**Status: ready for Lux's review. External sharing remains subject to owner review, rights review and recipient-specific access.** No collaborators have been invited and no deployment or public release is part of this portfolio.
+**Status: public portfolio.** Owner-approved publication on 26 October 2026 makes these curated work samples available for employment and collaboration review. The broader preservation repositories remain private. Publication does not change any implementation, validation, or rights boundary. Earlier private-review and delivery records are historical preparation snapshots.
 
 [Rights and notices](RIGHTS_AND_NOTICES.md) · [Preparation checklist](internal/PREPARATION_CHECKLIST.md)
 
