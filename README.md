@@ -25,6 +25,6 @@ This portfolio demonstrates documented design reasoning and evidence discipline.
 
 **Status: public portfolio.** Owner-approved publication on 26 October 2026 makes these curated work samples available for employment and collaboration review. The broader preservation repositories remain private. Publication does not change any implementation, validation, or rights boundary. Earlier private-review and delivery records are historical preparation snapshots.
 
-[Rights and notices](RIGHTS_AND_NOTICES.md) · [Preparation checklist](internal/PREPARATION_CHECKLIST.md)
+[Current publication record](PUBLICATION_STATUS.json) · [Rights and notices](RIGHTS_AND_NOTICES.md) · [Preparation checklist](internal/PREPARATION_CHECKLIST.md)
 
 ![Editorial mechanism illustration](visuals/aegis-verification.svg)
