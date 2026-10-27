@@ -11,6 +11,6 @@ Lux Eligarden develops system concepts and directs an iterative AI-assisted desi
 | Code, schemas, tests and implementation records | AI-assisted development artifacts present in the corpus. | That Lux independently wrote, debugged or can reproduce the code without assistance. |
 | This curated portfolio | Editorial selection, source checking, synthesis, diagrams, paper walkthroughs and PDF preparation by ChatGPT for Lux's review. | A new accepted system design, new feature, deployed product or fresh runtime benchmark. |
 
-Employment and scoped collaboration are the owner-selected framing. Preferred emphasis: AI and game systems design. Lux reported no additional external evidence available now. No credentials, job history, personal technical skill level, shipped products or external endorsements have been added.
+Employment and scoped collaboration are the owner-selected framing. Preferred emphasis: AI and game systems design. At preparation on 26 October 2026, Lux reported no additional external evidence available. No credentials, job history, personal technical skill level, shipped products or external endorsements have been added.
 
-Before sharing, Lux should review this wording for accuracy. A brief first-person account of two or three design decisions would make attribution more specific, but it is optional future evidence; this preparation does not wait for it or invent it.
+This statement accompanied the owner-approved public release on 26 October 2026. Future additions should be reviewed for accurate attribution before publication. A brief first-person account of two or three design decisions would make attribution more specific, but it is optional future evidence; this preparation does not wait for it or invent it.
