@@ -13,5 +13,7 @@
   "illustrative_walkthroughs_labeled": true,
   "version_boundaries_reviewed": true,
   "external_validation_claimed": false,
-  "owner_approval_for_external_sharing": false
+  "owner_approval_for_external_sharing": false,
+  "record_status": "historical_private_preparation_snapshot",
+  "status_note": "Private status and approval fields describe preparation on 26 October 2026, before owner-approved publication. See PUBLICATION_STATUS.json for current publication policy."
 }
