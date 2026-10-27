@@ -1,0 +1,18 @@
+{
+  "schema": "mythcore.portfolio_publication_status.v1",
+  "repository": "EliGarden/Mythcore-AI-Portfolio",
+  "visibility": "public",
+  "visibility_checked_on": "2026-10-27",
+  "owner_approved_publication_date": "2026-10-26",
+  "publication_status_commit": "d1a8cb43a540ac6ed38ccb50e4f1c4dc03133cf4",
+  "purpose": "Employment and scoped collaboration review of curated AI-assisted systems design work samples.",
+  "sharing_policy": "Public curated work samples only. Broader preservation repositories remain private. Review new inclusions for disclosure scope, source notices, contribution accuracy and evidence limits.",
+  "historical_records": [
+    "DELIVERY_VERIFICATION.json",
+    "QUALITY_CHECKS.json",
+    "internal/PREPARATION_CHECKLIST.md"
+  ],
+  "historical_record_policy": "Preparation-time visibility, approval, checks and source-head statements describe their original scope. They are not current access settings or fresh verification.",
+  "runtime_validation_rerun": false,
+  "implementation_or_rights_boundaries_changed": false
+}
