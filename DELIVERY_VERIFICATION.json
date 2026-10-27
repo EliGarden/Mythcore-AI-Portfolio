@@ -67,5 +67,7 @@
   "publications_or_deployments_performed": false,
   "source_features_or_decisions_added": false,
   "source_runtime_suites_rerun": false,
-  "checks": "See QUALITY_CHECKS.json for editorial, link, PDF, source-integrity and sensitive-content screening."
+  "checks": "See QUALITY_CHECKS.json for editorial, link, PDF, source-integrity and sensitive-content screening.",
+  "record_status": "historical_private_preparation_snapshot",
+  "status_note": "Private status and approval fields describe preparation on 26 October 2026, before owner-approved publication. See PUBLICATION_STATUS.json for current publication policy."
 }
