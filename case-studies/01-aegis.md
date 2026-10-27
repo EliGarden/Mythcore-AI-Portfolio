@@ -2,6 +2,8 @@
 
 **Selected version:** Aegis 0.4.2. **Role:** flagship AI work sample. **Maturity:** bounded research/education implementation with historical test evidence; overall validation blocked. The release title does not override the manifest's false pilot-deployability and production-readiness flags.
 
+> **Historical title clarification:** the preserved source calls this a “Verified Public-Pilot Release.” Overall validation remained blocked and public-pilot deployability was false. The title is not an operational-readiness claim; preserved source files remain unchanged.
+
 ## 1. Concrete problem
 
 A structured artifact can have internally consistent hashes while telling a false story about a decision or its consequences. Recomputing an artifact's own hashes is insufficient if its author changed the claimed governance outcome, permit, execution state or explanation. A second risk is equating 'the verifier accepts this representation' with 'a legitimate institution authorized this action.'
