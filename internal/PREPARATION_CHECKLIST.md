@@ -1,5 +1,7 @@
 # Internal preparation checklist
 
+> Historical private-preparation snapshot. The sharing restrictions below describe the original preparation task. Owner-approved public release on 26 October 2026 superseded that publication status; see [current publication record](../PUBLICATION_STATUS.json). Historical checks and source-head comparisons have not been rerun by this wording correction.
+
 ## Completed in this preparation
 
 - Initial GitHub evidence audit and source-head snapshot; source packages matched to manifest hashes.
